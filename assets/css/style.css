@@ -1,0 +1,39 @@
+html, body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container-fluid {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.middle {
+    border-color: #fff;
+    border-style: dotted;
+}
+
+#placeholders {
+    font-size: 70px;
+}
+
+.left, .right {
+    border-color: #fff;
+    border-style: dotted;
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+}
+.container-fluid h2 {
+    font-size: 20px;
+}
+
+.container-fluid h3 {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    #placeholder {
+        font-size: 30px;
+    }
+}

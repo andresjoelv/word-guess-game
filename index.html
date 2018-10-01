@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <!-- Boostrap -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+    
+</head>
+<body>
+    <section class="container-fluid" >
+        <div class="row">
+            <div class="col-12 title">
+                <img src="http://www.firstcomicsnews.com/wp-content/uploads/2016/09/Hangman-Logo-600x253.png" alt="">
+                <audio> </audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 left">
+                <img src="assets/images/logo2.png" style="height: 300px; width: 300px;" alt="songName">
+            </div>
+            <div class="col-lg-6 middle">
+                <h3>CURRENT WORD
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <span id="placeholders">_ _ _   _ _ _ _ _   _</span>
+                </h3>
+            </div>
+            <div class="col-lg-3 right">
+                <h2>PRESS ANY KEY TO GET STARTED!</h2>
+                <br />
+                <h3>WINS:</h3>
+                <div id="wins">0</div>
+                <br />
+                <h3>NUMBER OF GUESSES REMAINING</h3>
+                <div id="guesses-left">12</div>
+                <br />
+                <h3>LETTER ALREADY GUESSED</h3>
+                <div id="guessed-letters">-</div>
+                <br />
+                <div id="message">-</div>
+            </div>
+        </div>
+    </section>
+    <div style="text-align: center;">
+        <img src="assets/images/logo.png">
+    </div>
+    
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
